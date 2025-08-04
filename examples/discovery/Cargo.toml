@@ -1,0 +1,10 @@
+[package]
+name = "discovery"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+clap = { version = "4" }
+anyhow = "1"
+pro-dj-link-rs = {path = "../.."}
