@@ -8,3 +8,9 @@ tokio = { version = "1", features = ["full"] }
 anyhow = "1"
 bytes = "1"
 clap = { version = "4" }
+socket2 = "0.6"
+get_if_addrs = "0.5"
+
+[[example]]
+name = "discovery"
+path = "examples/discovery"
